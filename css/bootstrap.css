@@ -2737,8 +2737,8 @@ select[multiple].input-lg {
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
-  line-height: 10;
-  text-align: center;
+  line-height: 1.42857143;
+  text-align: left;
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
@@ -2788,9 +2788,8 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #a6a4a3;
+  background-color: #9b552b;
 }
 .btn-default:active,
 .btn-default.active,
