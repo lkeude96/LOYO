@@ -907,6 +907,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #41a4dd;
+  
 }
 input,
 button,
@@ -1117,7 +1118,7 @@ p {
 
 }
 @media (min-width: 768px) {
-  .lead {
+  .lead, {
     font-size: 21px;
   }
 }
@@ -2736,7 +2737,7 @@ select[multiple].input-lg {
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
-  line-height: 1.42857143;
+  line-height: 10;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
