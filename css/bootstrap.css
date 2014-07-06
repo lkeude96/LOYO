@@ -13,6 +13,12 @@ html {
 body {
   margin: 0;
 }
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
 article,
 aside,
 details,
@@ -896,10 +902,11 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#fff;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
+  background-color: #41a4dd;
 }
 input,
 button,
@@ -1107,6 +1114,7 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
+
 }
 @media (min-width: 768px) {
   .lead {
@@ -1400,6 +1408,7 @@ pre code {
   .container {
     width: 750px;
   }
+
 }
 @media (min-width: 992px) {
   .container {
@@ -2722,6 +2731,7 @@ select[multiple].input-lg {
 }
 .btn {
   display: inline-block;
+  color: #fff
   padding: 6px 12px;
   margin-bottom: 0;
   font-size: 14px;
@@ -2769,9 +2779,8 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: #dd6c26;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3020,6 +3029,24 @@ fieldset[disabled] .btn-danger.active {
   cursor: pointer;
   border-radius: 0;
 }
+
+@media (max-width: 768px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:80%;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .btn-responsive {
+    padding:4px 9px;
+    font-size:90%;
+    line-height: 1.2;
+  }
+}
+
+
 .btn-link,
 .btn-link:active,
 .btn-link[disabled],
@@ -3050,7 +3077,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-lg,
 .btn-group-lg > .btn {
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 60px;
   line-height: 1.33;
   border-radius: 6px;
 }
